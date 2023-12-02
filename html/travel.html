@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+    content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Travel</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/index.html" class="logo">Our Travel</a>
+        <div class="navlinks">
+            <ul>
+                <li><a href="/html/galerie.html">Galerie</a></li>
+                <li class="active"><a href="/html/travel.html">Travel</a></li>
+                <li><a href="/html/price.html">Price</a></li>
+                <li><a href="/html/story.html">Story</a></li>
+                <li><a href="/html/goal.html">Goal</a></li>
+            </ul>
+        </div>
+        <img src="/icon/burger.png" alt="menu hamburger" class="menubu">
+    </nav>
+    <header></header>
+    <div>
+        <p class="bienv">Mbola tsisy inn eh</p>
+    </div>
+</body>
+    <script>
+        const menuhamburger = document.querySelector(".menubu")
+        const navlink = document.querySelector(".navlinks")
+ 
+        menuhamburger.addEventListener('click',()=>{
+        navlink.classList.toggle('mobilemenu')
+        })
+    </script>
+</html>
